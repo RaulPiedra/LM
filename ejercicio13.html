@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formularios v2</title>
+		<meta charset="utf-8"/>
+		<!--Para el tamaño del form, size, minlength y maxlength. Para obligatorio: required
+ 		foco: autofocus. En botones de radio se vinculan con el name. value es el dato que viaja
+		label: para los textos de los campos-->
+	</head>
+	<body>
+		<h1>Formulario de contacto 2</h1>
+		<h2>Conocimientos de la materia</h2>
+		<form method="get" action="">
+			<fieldset>
+				<legend>Datos personales</legend>
+			<input type="text" name="nombre" placeholder="su nombre" size="10" maxlength="20" minlength="2" autofocus/><br/><br/>
+			<input type="text" name="apellidos" placeholder="sus apellidos" size="20" maxlength="20" minlength="5" required/><br/><br/>
+			<input type="password" name="pass" placeholder="su contraseña" size="20" maxlength="15" minlength="8" required/><br/><br/>
+			<span>Conocimientos de informatica: </span>
+			<input type="checkbox" name="conocimientos" value="conocimento" checked/><br/>
+			<span>Indica el metodo de acceso</span><br/>
+			<input type="radio" name="acceso" value="1" checked/>ESO <br/>
+			<input type="radio" name="acceso" value="2"/>FP<br/>
+			<input type="radio" name="acceso" value="3"/>Uni<br/>
+			<input type="radio" name="acceso" value="4"/>Otros<br/>
+			<span>Indica los lenguajes de programacion que conozcas:</span><br/>
+			<select name="menu" size="5">
+				<option value="0">----------</option>
+				<option value="1">JavaScript</option>
+				<option value="2">Java</option>
+				<option value="3">Python</option>
+				<option value="4" selected>DAX</option>
+			</select><br/><br/>
+				<textarea name="comentarios" rows="10" cols="60" placeholder="escriba aquí los comentarios"></textarea><br/>
+			<label><input type="checkbox" name="autorizo" value="autorizo" required/>Autorizo al tratamiento de mis datos</label><br/><br/>
+			<input type="color" name="color"/>
+			</fieldset><br/>
+						<fieldset>
+				<legend>Ampliacion de conocimientos</legend>
+			<input type="text" name="aplicacion1" placeholder="intro aplicacion1" size="25" maxlength="40" minlength="5" required/><br/><br/>
+			<input type="text" name="aplicacion2" placeholder="intro aplicacion2" size="25" maxlength="40" minlength="5" required/><br/><br/>
+			<span>Marque la casilla si tiene conocimientos de bases de datos: </span>
+			<input type="checkbox" name="conocimientosbd" value="conocimentobd"/><br/>
+			<span>Indique su nivel de Excel:</span><br/>
+			<input type="radio" name="acceso" value="0" checked/>Cero <br/>
+			<input type="radio" name="acceso" value="1"/>Basico<br/>
+			<input type="radio" name="acceso" value="2"/>Medio<br/>
+			<input type="radio" name="acceso" value="3"/>Avanzado<br/>
+			<input type="radio" name="acceso" value="4"/>Experto<br/>
+			<span>Indique hasta donde llega su nivel:</span><br/>
+			<select name="menu2">
+				<option value="0">Introduccion de datos</option>
+				<option value="1">Filtros y formulas basicas</option>
+				<option value="2">Filtros y formulas complejas</option>
+				<option value="3">Tablas dinamicas y formulas avanzadas</option>
+				<option value="4">Tablas dinamicas y programacion Vbasic</option>
+			</select><br/><br/>
+				<textarea name="comentarios" rows="10" cols="60" placeholder="escriba aquí los comentarios"></textarea><br/>
+			</fieldset><br/>
+			<input type="submit" value="ENVIAR"/>&nbsp;&nbsp;
+			<input type="reset" value="BORRAR"/>
+			
+
+		</form>
+	</body>
+</html>
