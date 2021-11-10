@@ -1,0 +1,53 @@
+body {
+	background-color:#DAFFB3;
+	border: 20px groove green;
+	padding: 30px;
+}
+h1 {
+	font-size:3em;
+	text-align:center;
+	color:red;
+	text-decoration:underline;
+}
+h2 {
+	color:grey;
+	/*si son varias palabras: entre comillas*/
+	/*se pueden fijar varias fuentes: separados por comas
+	si el navegador no acepta la primera, usa la segunda*/
+	font-family: verdana;
+	border-bottom: 20px solid blue; /*tres propiedades en una */
+	/*border-top // border-left // border-right // border-bottom */
+	border-top: 15px solid red;
+	background-color: purple;
+	padding: 16px;
+}
+
+p {
+	text-align: justify;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+li {
+	font-size: 2em;
+	text-decoration: line-through;
+}
+
+ul {
+	border: 2px dotted grey;
+	color: red;
+}
+
+span {
+	color: blue;
+	text-decoration: underline;
+}
+
+strong {
+	color: purple;
+	font-size: 1.3em;
+}
+
+h1, h2 {
+	color: blue;
+}
