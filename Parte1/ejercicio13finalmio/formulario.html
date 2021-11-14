@@ -3,21 +3,38 @@
     <head>
         <title>Formulario</title>
         <meta charset="utf-8">
+        </head>
+        <h1>FORMULARIO DE INSCRIPCIÓN</h1>
         <fieldset >
             <legend>Datos del deportista<em>(Todos los campos de texto y la conformidad son obligatorios)</em></legend>
             <form method="get" action="">
               <input type="text" name="nombre" placeholder="Nombre" size="20" maxlength="40" minlength="2"/><br/><br/>
               <input type="text" name="apellidos" placeholder="Apellidos" size="20" maxlength="40" minlength="2"/><br/><br/>
-              <input type="text" name="club" placeholder="Club" size="20" maxlength="40" minlength="2"/><br/><br/>  
+              <input type="text" name="club" placeholder="Club" size="20" maxlength="40" minlength="6"/><br/><br/>  
               <input type="text" name="email" placeholder="email" size="20" maxlength="40" minlength="2"/><br/><br/>
               <span><strong>Federado</strong></span><input type="checkbox" name="federado" value="federado"/><br/><br/>
-              <span>Fecha de nacimiento:</span>&nbsp;&nbsp;<input type="date"/>
+              <span>Fecha de nacimiento:</span>&nbsp;&nbsp;<input type="date"/><br/><br/>
               <strong>Distancia elegida:</strong><br/><br/>
               <input type="radio" name="distancia" value="10000"/>10000 metros<br/>
               <input type="radio" name="distancia" value="21000"/>21000 metros<br/>
               <input type="radio" name="distancia" value="42000"/>42000 metros<br/>
-              <input type="radio" name="distancia" value="solidario"/>Dorsal solidario<br/>
+              <input type="radio" name="distancia" value="solidario"/>Dorsal solidario<br/><br/><br/>
+              <span><strong>Indica la categoría:</strong></span><br/>
+              <select type="menu">
+              <option value="senior" selected>Senior</option>
+              <option value="junior">Junior</option>
+              <option value="profesional">Profesional</option>
+              <option value="aficcionado">Aficcionado</option>
+              </select>
+              </select><br/><br/>
+              <span><strong>Indica el color de la camiseta:</strong></span><input type="color"/><br/><br/>
+              <textarea name="comentarios" rows="15" cols="50" placeholder="escriba sus comentarios"></textarea><br/><br/>
+              <span><strong>El deportista asegura estar en un estado de forma óptimo para correr y no padece
+              ninguna enfermedad que le impida la práctica de actividad física</strong><input type="checkbox" value="sano"/></span><br/><br/>
+              <input type="submit" value="ENVIAR"/>&nbsp;&nbsp;<input type="reset" value="RESET"/>
+
+
             </form>
         </fieldset>
-    </head>
+    
 </html>

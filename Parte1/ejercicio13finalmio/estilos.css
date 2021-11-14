@@ -1,0 +1,18 @@
+h1 {
+    background-color:blue;
+    color:white;
+}
+h2 {
+    background-color:magenta;
+    color:white;
+}
+a {
+    background-color: green;
+    color: lightgray;
+}
+body {
+    background-color:bisque;
+}
+img {
+    width: 80%;
+}
