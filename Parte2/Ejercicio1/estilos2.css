@@ -1,3 +1,16 @@
 body {
-    background-color: red;
+    /*truco: poner la letra a 10px:*/
+    /*font-size: 10px;*/
+    background-color: beige;
+}
+/*Hay dos tamaños: relativo (porcentaje y em) y absoluto (en pixels) */
+p {
+    /*font-size:100%; /* 100% del contenedor padre. Si no hay padre: 16px del body */
+    /*font-size: 1em; /* 130% equivale a 1.3em */
+    /*font-size: 16px; /* estos tres obtienen el mismo resultado */
+    font-size: 20px;
+}
+span {
+    color: blue;
+    font-size: 130%;
 }
