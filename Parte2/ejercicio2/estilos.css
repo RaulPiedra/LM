@@ -1,3 +1,46 @@
 body {
     background-color: beige;
+    font-size: 62.5%;
+    width: 80%;
+    margin: 20px auto;
+}
+h1, h2 {
+    font-size: 3em;
+    margin: 30px;
+    background-color: white;
+    padding: 30px;
+    word-spacing: 10px;
+}
+h1 {
+    color: darkgray;
+    font-family: calibri;
+    text-align: center;
+    background-color:darkorange;
+    border-bottom: 25px solid gray;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+}
+h2 {
+    font-family: Tahoma;
+    border-top: 5px solid gray;
+    background-color: aqua;
+    border-bottom: 25px solid aquamarine;
+    letter-spacing: 1.5px;
+}
+p {
+    font-family: Arial;
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 2em;
+    color: gray;
+    border-bottom: 5px dotted gray;
+    padding-bottom: 30px;
+    line-height: 200%;
+}
+h3 {
+    text-shadow: 5px 2px lightblue;
+    font-size: 3em;
+    font-family: Verdana;
+    border-bottom: 15px groove gray;
+    padding-bottom: 20px;
 }
