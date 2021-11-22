@@ -44,3 +44,29 @@ h3 {
     border-bottom: 15px groove gray;
     padding-bottom: 20px;
 }
+ul li {
+    list-style: none;
+}
+ol {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 300%;
+    color: lightblue;
+    border: 35px groove #2EF443;
+    padding: 45px;
+}
+ol li {
+    line-height: 50px;
+}
+img {
+    border: 16px solid black;
+    height: 75px;
+    vertical-align: top;
+}
+span {
+    color: #f45b2e;
+    font-size: 45px;
+    font-family: impact;
+    word-spacing: 7px;
+    line-height: 70px;
+}
