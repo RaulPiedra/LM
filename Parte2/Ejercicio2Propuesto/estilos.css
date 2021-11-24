@@ -1,8 +1,34 @@
+body {
+    background-color: beige;
+    margin: 20px auto;
+    width: 80%;
+    font-family: calibri;
+    
+}
+h1, h2 {
+    font-size: 3em;
+    margin: 30px;
+    background-color: white;
+    padding: 30px;
+    word-spacing: 10px;
+}
+h1 {
+    font-size: 2.5em;
+    color: blue;
+    text-align: center;
+    background-color:violet;
+    border-bottom: 25px solid gray;
+    border-radius: 20px;
+    /*letter-spacing: 1.5px;*/
+    /*width: 75%;*/
+    padding: 20px;
+}
 img {
     border-radius: 15px;
+    border: 7px double black;
     width: 1000px;
-    border-color: red;
-    b
+    /*/border-color: red;*/
+    background-color: red;
 }
 p span {
     
