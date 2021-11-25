@@ -47,6 +47,8 @@ ul li {
     list-style: none;
 }
 p {
+    text-indent: 50px;
+    text-align: justify;
     font-size: 2em;
     border-bottom: 2px dashed gray;
     padding: 20px;
@@ -65,8 +67,14 @@ em {
     text-decoration: underline;
 }
 ol {
-    border: 15px solid;
+    width: 50%;
+    margin: auto;
+    font-size: 2em;
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    border: 35px solid;
     border-radius: 25px;
     border-style: inset;
     border-color: green;
+    color: blue;
 }
