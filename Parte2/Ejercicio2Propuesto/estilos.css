@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: lightyellow;
     margin: 20px auto;
     width: 80%;
     font-family: calibri;
@@ -21,7 +21,17 @@ h1 {
     border-radius: 20px;
     /*letter-spacing: 1.5px;*/
     /*width: 75%;*/
-    padding: 20px;
+    padding: 15px;
+}
+h2 {
+    font-size: 2em;
+    color: white;
+    text-align: left;
+    border-radius: 20px;
+    border-top: 5px dashed black;
+    background-color: blue;
+    border-bottom: 25px solid gray;
+    padding: 15px;
 }
 img {
     border-radius: 15px;
@@ -30,6 +40,31 @@ img {
     /*/border-color: red;*/
     background-color: red;
 }
+h3 {
+    text-shadow: 5px 2px lightblue;
+    font-size: 1.8em;
+    padding-bottom: 20px;
+    border-bottom: 5px solid black;
+}
+ul li {
+    list-style: none;
+}
+p {
+    font-size: 2em;
+    border-bottom: 2px dashed gray;
+    padding: 20px;
+}
 p span {
-    
+    /*font-size: 2em;*/
+    color: blue;
+    background-color: lightgray; 
+    line-height: 42px;   
+}
+strong {
+    color: red;
+    text-decoration: underline;
+}
+em {
+    color: orange;
+    text-decoration: underline;
 }
