@@ -19,8 +19,6 @@ h1 {
     background-color:violet;
     border-bottom: 25px solid gray;
     border-radius: 20px;
-    /*letter-spacing: 1.5px;*/
-    /*width: 75%;*/
     padding: 15px;
 }
 h2 {
@@ -37,7 +35,6 @@ img {
     border-radius: 15px;
     border: 7px double black;
     width: 1000px;
-    /*/border-color: red;*/
     background-color: red;
 }
 h3 {
@@ -55,7 +52,6 @@ p {
     padding: 20px;
 }
 p span {
-    /*font-size: 2em;*/
     color: blue;
     background-color: lightgray; 
     line-height: 42px;   
@@ -67,4 +63,10 @@ strong {
 em {
     color: orange;
     text-decoration: underline;
+}
+ol {
+    border: 15px solid;
+    border-radius: 25px;
+    border-style: inset;
+    border-color: green;
 }

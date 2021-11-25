@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
+body {
+    background-color: aquamarine;
+    font-family: tahoma;
+    width: 75%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: pink;
+    font-size: 4.0em;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: beige;
+    border-radius: 50px;
+}
+h2 {
+    font-family: 'Petemoss', cursive;
+    text-align: center;
+    color: #418b2f;
+    font-size: 120px;
+    border-bottom: 3.5px dashed green;
+}
+h2,ul,ol,p {
+    margin: 80px 60px;
+}
+span {
+    color: orange;
+    text-decoration: underline;
+}
+strong {
+    color: #e6ee3f;
+    text-decoration: line-through;
+}
