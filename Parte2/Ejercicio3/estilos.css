@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
 body {
     background-color: aquamarine;
     font-family: tahoma;
@@ -33,4 +34,36 @@ span {
 strong {
     color: #e6ee3f;
     text-decoration: line-through;
+}
+p {
+    border-top: 30px solid #420221;
+    border-radius: 25px 0px;
+    padding: 25px;
+    background-color: #F7F5F6;
+
+    font-family: "Mystery Quest" ;
+}
+ol, ul {
+    border-bottom: 30px solid black;
+    border-radius: 30px 0px 0px;
+    padding: 30px;
+    font-size: 40px;
+    background-color: #D5F3CD;
+    font-family: "Petemoss", cursive;
+}
+li {
+    padding-bottom: 10px;
+    list-style-position: inside;
+}
+ol, li {
+
+    list-style-type: lower-alpha;
+}
+ul li {
+    list-style-type: circle;
+}
+a {
+    text-decoration: none;
+    color: brown;
+    font-size: 130%;
 }
