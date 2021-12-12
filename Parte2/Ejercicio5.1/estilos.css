@@ -1,0 +1,48 @@
+p {
+	background-color:red;
+	padding-bottom:20px;
+}
+h1 {
+	background-color:blue;
+	padding-bottom:20px;
+}
+h2 {
+	background-color:yellow;
+	padding-bottom:20px;
+}
+h3 {
+	background-color:grey;
+	padding-bottom:20px;
+}
+h4 {
+	background-color:navy;
+	padding-bottom:20px;
+}
+h5 {
+	background-color:green;
+	padding-bottom:20px;
+}h6 {
+	background-color:black;
+	color:white;
+	padding-bottom:20px;
+}
+a {
+	background-color:pink;
+	padding-bottom:20px;
+}
+span {
+	background-color:aqua;
+}
+div {
+	font-size:150%;
+	color:white;
+	background-color:brown;
+	padding-bottom:30px;
+}
+ol {
+	background-color:yellow;
+}
+img {
+	height:150px;
+	border:1px solid;
+}
