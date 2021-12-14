@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    background-color: green;
+    height: 100vh;
+    font-family: 'Abril Fatface', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section {
+    font-size: 325%;
+    width: 80%;
+    padding: 50px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    background-image: url(cathedral.jpeg);
+    background-size: cover;
+    background-position-y: center;
+    -webkit-background-clip: text;
+    /*color: #d7ddc3;*/
+    /*color: rgb(0,0,0,0.5);*/
+    color: transparent;
+    /*Compatibilidad con todos los navegadores:*/
+    -webkit-text-fill-color: transparent;
+}
+a {
+    display: block;
+    margin: 0 auto;
+    background-color: #d7dacb;
+    padding: 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 25px;
+}
+a:hover {
+    color: white;
+    background-color: #5a613e;
+}
+a:active {
+    transform: scale(0.85);
+}
