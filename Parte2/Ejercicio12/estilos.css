@@ -1,0 +1,32 @@
+div.caja {
+    border: 1px solid grey;
+    padding: 15px;
+    margin: 10px;
+    width: 15%;
+
+}
+.contenedorPrincipal {
+    display: flex;
+    background-color: khaki;
+    border: 2x solid black;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: flex-start;
+    justify-content: flex-end;*/
+    height: 400px; /*Si no quiero que se estiren uso align items*/
+    /*align-items: center;
+    align-items: flex-end;*/
+
+}
+
+div#distinta {
+    background-color: red;
+}
+.contenedorPrincipal {
+    flex-direction: column;
+    flex-direction: row;
+}

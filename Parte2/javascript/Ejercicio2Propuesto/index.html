@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript2</title>
+        <meta charset="utf-8">
+        <link href="estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>Mi segundo Javascript</h1>
+        <script>
+
+            var a = prompt("Introduzca el precio:");
+            var b = prompt("Introduzca el descuento:");
+            var c;
+            c = a - (b/100)*a;
+            document.write("Calculo de precio con descuento: " );
+            document.write("<hr/>");
+            document.write("El precio del articulo es: " + a + "€");
+            document.write("<hr/>");
+            document.write("Se ha aplicado un: " + b + "%");
+            document.write("<hr/>");
+            document.write("El descuento es de:" + (b/100)*a + "€");
+            document.write("<hr/>");
+            document.write("El precio final es de:"+ c + "€");
+            document.write("<hr/>");
+            
+            
+        </script>
+    </body>
+</html>
