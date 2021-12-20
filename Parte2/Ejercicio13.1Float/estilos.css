@@ -1,0 +1,40 @@
+* {
+    color: white;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+#principal {
+    width: 90%;
+    background-color: khaki;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: border-box;
+}
+.cabecera {
+    background-color: red;
+    height: 15%;
+}
+#navegacion {
+    background-color: green;
+    height: 10%;
+}
+#seccion {
+    background-color: blue;
+    height: 60%;
+    width: 70%;
+    float: left;
+}
+.lateral {
+    background-color: yellow;
+    height: 60%;
+    width: 20%;
+    float: right;
+}
+#pie {
+    background-color: black;
+    height: 10%;
+    clear: both;
+}
