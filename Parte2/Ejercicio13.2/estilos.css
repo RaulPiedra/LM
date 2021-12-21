@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+div {
+    border: 5px solid black;
+    border-radius: 5px;
+}
+div.rel {
+    display: inline-block;
+    width: 100px;
+    background-color: blue;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+#distinta {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: red;
+}
+p {
+    line-height: 40px;
+    margin: 100px 250px;
+    font-size: 35px;
+}
+
+#absoluto {
+    background-color: green;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 200px;
+    z-index: 1;
+}
+#fijo {
+    background-color: red;
+    position: fixed;
+    top: 300px;
+    left: 250px;
+    width: 200px;
+    z-index: 0;
+}
