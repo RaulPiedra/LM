@@ -1,0 +1,24 @@
+#principal {
+	
+}
+p.misParrafos {
+	border:1px solid black;
+	font-size:1.5em;
+	padding:15px;
+}
+img {
+	width:300px;
+	margin:15px;
+}
+img#iron{
+	float:right;
+}
+img#iron2 {
+	float:left;
+}
+img#judas {
+	float:right;
+}
+img#judas2 {
+	clear:both;
+}
