@@ -1,0 +1,49 @@
+#contenedor {
+    width: 90%;
+    padding: 20px;
+    font-size: 15px;
+    height: 100%;
+    background-color: gray;
+    margin: 0 auto;
+}
+#cabecera {
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#grupo {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 25px;
+    margin-right: 15px;
+}
+#imagen {
+    border-radius: 35px;
+    background-color: white;
+    
+    
+}
+table {
+    border: 1px black;
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+#fecha {
+    text-align: right;
+}
+#texto {
+    display: block;
+}
+#l {
+    font-size: 50px;
+    float: left;
+}
+
+#destacada {
+    float: right;
+    width: 35%;
+    background-color: darkgrey;
+}

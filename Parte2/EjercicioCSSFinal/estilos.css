@@ -1,0 +1,23 @@
+#principal {
+    display: block;
+    background-color: gray;
+}
+#cabecera {
+    width: 100%;
+    display: flex;
+    background-color: blue;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+#primero {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    background-color: red;
+    
+}
