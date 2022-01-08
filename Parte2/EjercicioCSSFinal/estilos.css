@@ -1,6 +1,25 @@
+body {
+    background-color: gray;
+}
 #principal {
     display: block;
     background-color: gray;
+    
+}
+#tienda {
+    border-radius: 25px;
+    width: 70%;
+    margin-left: 10px;
+}
+select {
+    background-color: gray;
+    color: white;
+    height: 30px;
+
+}
+input {
+    height: 28px;
+    width: 250px;
 }
 #cabecera {
     width: 100%;
@@ -10,14 +29,71 @@
     position: fixed;
     left: 0;
     top: 0;
-    justify-content: space-between;
+    
     align-items: center;
 }
 #primero {
+    width: 95%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 0 auto;
     margin-top: 150px;
-    background-color: red;
+    background-color: white;
+    
+}
+#primero figcaption {
+    text-align: center;
+    font-weight: bold;
+
+}
+#segundo {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+}
+#segundo a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+#tercero {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+}
+#tercero figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-right: 150px;
+}
+#tercero img {
+    width: 70%;
+}
+#ultimo {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+}
+#ultimo figcaption {
+    float: right;
+    margin-top: 20px;
+}
+#envio {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
     
 }
