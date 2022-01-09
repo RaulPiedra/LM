@@ -1,10 +1,9 @@
 body {
-    background-color: gray;
+    background-image: url("deepfield.jpg");
 }
 #principal {
     display: block;
-    background-color: gray;
-    
+        
 }
 #tienda {
     border-radius: 25px;
