@@ -3,17 +3,19 @@
     padding: 20px;
     font-size: 15px;
     height: 100%;
-    background-color: gray;
+    background-color: white;
     margin: 0 auto;
 }
 #cabecera {
     display: flex;
-    background-color: beige;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     
 }
 #grupo {
+    font-size: 1.5em;
+    font-weight: bold;
     border: 1px solid black;
     border-radius: 25px;
     padding: 25px;
@@ -26,16 +28,20 @@
     
 }
 table {
+    font-size: 2em;
+    font-style: italic;
     border: 1px black;
     width: 100%;
     margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     text-decoration: underline;
 }
 #fecha {
     text-align: right;
 }
 #texto {
-    display: block;
+    font-size: 1.5em;    
 }
 #l {
     font-size: 50px;
@@ -44,6 +50,13 @@ table {
 
 #destacada {
     float: right;
-    width: 35%;
+    width: 30%;
     background-color: darkgrey;
+}
+#titulo {
+    background-color: red;
+    color: white;
+    height: 60px;
+    width: 50%;
+    border-bottom-right-radius: 20px;
 }

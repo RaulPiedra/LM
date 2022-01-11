@@ -85,7 +85,9 @@ input {
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 25px;
     background-color: white;
+    
 }
 #ultimo figcaption {
     float: right;
