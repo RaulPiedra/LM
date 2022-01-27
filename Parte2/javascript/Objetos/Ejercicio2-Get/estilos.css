@@ -1,0 +1,25 @@
+#cuerpo {
+    background-color: #9df88b;
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+
+}
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 1px solid grey;
+    color: azure;
+    text-align: center;
+    margin: 5px;
+    display: block;
+    border-radius: 25px;
+}
+ul {
+    list-style: none;
+}
