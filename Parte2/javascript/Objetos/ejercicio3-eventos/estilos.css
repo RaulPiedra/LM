@@ -1,0 +1,19 @@
+input{
+	width: 200px;
+	height: 50px;
+	font-size:2em;
+	text-align:center;
+	margin: 10px;
+	cursor: pointer;
+}
+img{
+	width: 50%;
+	display:block;
+	margin:0 auto;
+	cursor:pointer;
+}
+p{
+	text-align:center;
+	font-size:3em;
+	cursor:pointer;.
+}

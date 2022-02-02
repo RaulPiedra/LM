@@ -1,0 +1,34 @@
+*{
+	padding:0;
+	margin:0;
+}
+h1,p{
+	text-align:center;
+	color:white;
+	margin:10px;
+}
+#cuerpo{
+	width:80%;
+	margin:0 auto;
+	padding:15px;
+	background-color:navy;
+	height:150vh;
+}
+img{
+	width:700px;
+	cursor:pointer;
+	position:absolute;/*se saca del flujo normal y lo ponemos donde queramos con top, bottom, left y right*/
+	top:200px;
+	left:250px;
+	height:500px;
+	
+}
+input{
+	border-radius:15px;
+	cursor:pointer;
+	width:200px;
+	font-size:1.5em;
+	color:brown;
+	margin:10px;
+	padding:15px;
+}
