@@ -1,0 +1,66 @@
+* {
+	padding:0;
+	margin:0;
+}
+h1,p {
+	text-align:center;
+	color:white;
+	margin:10px;
+}
+#cuerpo {
+	width:80%;
+	margin:0 auto;
+	padding:15px;
+	background-color:navy;
+}
+img {
+	width:30%;
+	cursor:pointer;
+}
+img:hover {
+	opacity:1;
+}
+.zonaimagenes, .zonabotones {
+	display:flex;
+	justify-content:space-around;
+	box-sizing:border-box;
+}
+input {
+	border-radius:15px;
+	cursor:pointer;
+	width:200px;
+	font-size:1.5em;
+	color:blue;
+	margin:10px;
+	padding:15px;
+	background-color:#DFE5DD;
+}
+input:hover {
+	color:brown;
+}
+div#texto {
+	width:600px;
+	height:400px;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	background-color:#F2F5F1;
+	padding:15px;
+}
+div#texto p {
+	text-align:right;
+	font-size:30px;
+	color:black;
+	cursor:pointer;
+}
+span#contenido {
+	font-size:2em;
+	line-height:30px;
+}
+/*Esto lo hacemos muy al final*/
+div#texto {
+	visibility:hidden;
+}
