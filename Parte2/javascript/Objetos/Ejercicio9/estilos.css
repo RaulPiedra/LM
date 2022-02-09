@@ -1,0 +1,34 @@
+input {
+	width:200px;
+	font-size:2em;
+	margin:10px;
+	cursor:pointer;
+}
+input:hover {
+	transform:scale(0.9);
+}
+input:active {
+	color:blue;
+}
+#recuadros {
+	display:flex;
+	
+}
+.recuadros {
+	border:5px solid black;
+	width:30%;
+	height:200px;
+	font-size:3em;
+	text-align:center;
+	line-height:100px;
+	margin:10px;
+}
+div#parrafos p {
+	height:200px;
+	border:2px solid black;
+	width:50%;
+}
+div#final {
+	height:150px;
+	border:1px solid black;
+}
