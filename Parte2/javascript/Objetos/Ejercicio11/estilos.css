@@ -1,0 +1,17 @@
+#caja {
+      width:80%;
+      height:90vh;
+      margin:0 auto;
+      background-color:red;
+      border:3px solid;
+        }
+#posicion {
+      width:250px;
+      height:70px;
+      font-size:3em;
+      text-align:center;
+      position:absolute;
+      top:50px;
+      left:50px;
+                
+            }
