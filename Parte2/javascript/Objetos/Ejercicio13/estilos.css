@@ -1,0 +1,19 @@
+#contenido {
+    width: 90%;
+    height: 90vh;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+
+@media (min-width: 700px) {
+    #contenido {
+        background-color: red;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    #contenido {
+        background-color: yellow;
+    }
+}
