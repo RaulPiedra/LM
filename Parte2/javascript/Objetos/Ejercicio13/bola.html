@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #bola {
+                width:50px;
+                height:50px;
+                background-color:blue;
+                border-radius:50%;
+               position:absolute;
+                top:50%;
+                margin-top:-25px;
+
+            }
+           
+            #pantalla{
+                width:100%;
+                height:100%;
+                background-color: black;
+                position:absolute;
+                top:0px;
+                left:0px;
+                visibility: hidden;
+                font-size:20em;
+                color:red;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body onload="carga()">
+        <div id="principal">
+             <div id="bola">
+            
+             </div>
+        </div> 
+        <div id="pantalla">BOOM!!!!!</div>
+        <script>
+            var v_pantalla = document.getElementById("pantalla");
+            var v_bola = document.getElementById("bola");
+            var margen = 0;
+            function carga() {
+                proceso = setInterval(mover, 10);
+            }
+            function mover() {
+                //document.write("Holaaa!!" + "<br/>");
+                margen+=1;
+                v_bola.style.marginLeft=margen + "px";
+                if (margen == 800) {
+                    v_pantalla.style.visibility="visible";
+                    clearInterval(proceso);
+                }
+
+            }
+            
+           
+        </script>
+    </body>
+</html>
