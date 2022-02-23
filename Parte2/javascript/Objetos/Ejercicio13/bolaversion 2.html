@@ -35,6 +35,29 @@
         </div> 
         <div id="pantalla">BOOM!!!!!</div>
         <script>
+            var v_pantalla = document.getElementById("pantalla");
+            var v_bola = document.getElementById("bola");
+            var margen = 0;
+            var ancho = 0;
+            var alto = 0;
+            function carga() {
+                proceso = setInterval(mover, 100);
+            }
+            function mover() {
+                
+                margen+=5;
+                ancho+=5;
+                alto+=5;
+                v_bola.style.width=ancho+"px";
+                v_bola.style.height=alto+"px";
+                v_bola.style.marginLeft=margen + "px";
+                if (ancho == 800) {
+                    v_pantalla.style.visibility="visible";
+                    clearInterval(proceso);
+                }
+
+            }     
+           
          
         </script>
     </body>

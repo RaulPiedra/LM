@@ -1,0 +1,32 @@
+#contenedor {
+    margin-top: 20px;
+    border: 2px dotted grey;
+    padding: 25px;
+    width: 30%;
+    height: 200px;
+    background-color: salmon;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+h1, h2 {
+    text-align: center;
+
+}
+#barragrande {
+    height: 40px;
+    margin: 0 auto;
+    background-color: grey;
+    width: 300px;
+}
+#barrachica {
+    background-color: orange;
+    width: 15px;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+}
+#numero
+{
+    margin-left: 17px;
+    line-height: 40px;
+}
