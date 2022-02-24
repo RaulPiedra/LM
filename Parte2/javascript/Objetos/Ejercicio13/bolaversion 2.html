@@ -28,6 +28,9 @@
         </style>
     </head>
     <body onload="carga()">
+        <audio src="war.mp3" id="sonido">
+
+        </audio>
         <div id="principal">
              <div id="bola">
             
@@ -35,6 +38,7 @@
         </div> 
         <div id="pantalla">BOOM!!!!!</div>
         <script>
+            var v_sonido = document.getElementById("sonido");
             var v_pantalla = document.getElementById("pantalla");
             var v_bola = document.getElementById("bola");
             var margen = 0;
@@ -53,6 +57,7 @@
                 v_bola.style.marginLeft=margen + "px";
                 if (ancho == 800) {
                     v_pantalla.style.visibility="visible";
+                    v_sonido.play();
                     clearInterval(proceso);
                 }
 

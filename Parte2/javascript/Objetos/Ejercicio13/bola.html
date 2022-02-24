@@ -31,6 +31,9 @@
         </style>
     </head>
     <body onload="carga()">
+        <audio src="war.mp3" id="sonido">
+
+        </audio>
         <div id="principal">
              <div id="bola">
             
@@ -38,6 +41,7 @@
         </div> 
         <div id="pantalla">BOOM!!!!!</div>
         <script>
+            var v_sonido = document.getElementById("sonido");
             var v_pantalla = document.getElementById("pantalla");
             var v_bola = document.getElementById("bola");
             v_bola.addEventListener("click", fin);
@@ -56,6 +60,8 @@
             }
             function fin() {
                 v_pantalla.style.visibility="visible";
+                v_sonido.play();
+                
             }            
            
         </script>
