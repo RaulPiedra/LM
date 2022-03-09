@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pueblos>
+    <pueblo>
+        <nombre>
+            Abla
+        </nombre>
+        <habitantes>
+            2500
+        </habitantes>
+        <kmalmeria>
+            60
+        </kmalmeria>
+        <sitiosinteres>
+            <monumentos>
+                Ermita de las maravillas
+            </monumentos>
+            <naturaleza>
+                El Serbal
+            </naturaleza>
+        </sitiosinteres>
+    </pueblo>
+    <pueblo>
+        <nombre>
+            Carboneras
+        </nombre>
+        <habitantes>
+            8000
+        </habitantes>
+        <kmalmeria>
+            60
+        </kmalmeria>
+        <sitiosinteres>
+            <monumentos>
+                La Fortaleza
+            </monumentos>
+            <naturaleza>
+                Playa de los Muertos
+            </naturaleza>
+        </sitiosinteres>
+    </pueblo>
+    <pueblo>
+        <nombre>
+            Abrucena
+        </nombre>
+        <habitantes>
+            1900
+        </habitantes>
+        <kmalmeria>
+            65
+        </kmalmeria>
+        <sitiosinteres>
+            <monumentos>
+                Iglesia de la Anunciacion
+            </monumentos>
+            <naturaleza>
+                La Roza
+            </naturaleza>
+        </sitiosinteres>
+    </pueblo>
+</pueblos>
