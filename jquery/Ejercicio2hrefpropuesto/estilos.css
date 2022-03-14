@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Redressed&display=swap');
+#imagenes {
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+}
+.columnas {
+	box-sizing:border-box;
+}
+#imagenes img {
+	width:200px;
+	padding:5px;
+	cursor:pointer;
+}
+#logo {
+	display:block;
+	margin:0 auto;
+	width:25%;
+}
+h1 {
+	font-family: 'League Spartan', sans-serif;
+	border-left:20px groove red;
+	margin-left:50px;
+	font-size:3em;
+	padding:15px;
+	border-radius:15px;
+}
+.faldoncillo {
+	text-align:center;
+	font-weight:bold;
+	font-size:1.5em;
+	height:25px;
+}
+#info {
+	border:1px dashed grey;
+	border-radius:5px;
+	margin:0 auto;
+	width:60%;
+	height:300px;
+	padding:7px;
+	font-size:2em;
+	text-align:center;
+	margin-top:50px;
+}
+span {
+	background-color:grey;
+	color:white;
+	display:block;
+	padding-top:0;
+}
