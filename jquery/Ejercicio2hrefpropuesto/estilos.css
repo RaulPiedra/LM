@@ -49,3 +49,21 @@ span {
 	display:block;
 	padding-top:0;
 }
+#izquierdo {
+	width:10px;
+	background-color:blue;
+	border-radius:0px 0px 5px 5px;
+	height:70vh;
+	position:fixed;
+	top:20px;
+	left:20px;
+}
+#derecho {
+	width:10px;
+	background-color:blue;
+	border-radius:5px 5px 0px 0px ;
+	height:70vh;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+}

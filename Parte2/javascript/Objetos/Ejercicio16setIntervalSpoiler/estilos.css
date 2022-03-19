@@ -1,0 +1,68 @@
+           body {
+                background-color: #E7E8EB;
+            }
+            #banner{
+                color:white;
+                border:5px dashed #E7E8EB;
+                font-size:1.5em;
+                text-align:center;
+                margin:15px;
+                padding:20px;
+                background-color: red;
+                font-weight: bold;
+            }
+            h1,h2 {
+                font-family: "Rockwell";
+                border-top:20px solid;
+                padding-top:15px;
+            }
+            input {
+                background-color:#3C59F4;
+                width:110px;
+                height:40px;
+                font-size: 1.2em;
+                font-family:verdana;
+            }
+            #peli1{
+                border:1px solid;
+            }
+            img {
+                width:200px;
+                height:300px;
+               
+                
+            }
+            img#logo{
+                width:600px;
+                height:200px;
+            }
+            #principal {
+                width:80%;
+                 height:100%;
+                 background-color:white;
+                margin:0 auto;
+            }
+            #sinopsis {
+                text-align:justify;  
+                padding:20px;
+                font-family:"comic sans";
+                font-size:1.5em;
+                background-color: #F5F5F5;
+            }
+            p {
+                font-size:2em;
+                font-style: italic;
+            }
+            figcaption {
+                text-align:center;
+                color:red;
+                font-size:1.2em;
+            }
+            #spoiler1, #spoiler2 {
+                text-align:justify;  
+                padding:20px;
+                font-family:"comic sans";
+                font-size:1.5em;
+                background-color: #B6BFDB;
+                visibility: hidden;
+            }
