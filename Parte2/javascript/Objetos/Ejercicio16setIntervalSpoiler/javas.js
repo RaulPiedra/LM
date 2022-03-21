@@ -32,7 +32,7 @@ var pulsado2 = false;
 var pulsado3 = false;
 var pulsado4 = false;
 
-alert("hola");
+
 function muestraSpoiler1() {
     if (pulsado1 == true) {
         v_boton1.value = "spoiler";
