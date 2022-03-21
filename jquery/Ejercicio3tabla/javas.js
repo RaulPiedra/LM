@@ -1,4 +1,6 @@
    $(document).ready(function(){
+       var color;
+       var clase;
        /*$("#boton1").click(function(){
            //$(".lengua").css("backgroundColor", "red");
            //$(".lengua, .mates").css("backgroundColor", "red");
@@ -22,15 +24,26 @@
         var pulsado = $(this).attr("value");
         switch (pulsado) {
             case "LENGUA":
-                $(".lengua").css("backgroundColor", "red");
+                color = "red";
+                clase = "." + pulsado.toLowerCase();
+                //$(".lengua").css("backgroundColor", "red");
                 break;
             case "MATES":
-                $(".mates").css("backgroundColor", "aquamarine");
+                color = "aquamarine";
+                clase = "." + pulsado.toLowerCase();
+                //$(".mates").css("backgroundColor", "aquamarine");
+                break;
+            case "RESTAURAR":
+                color = "transparent";
+                clase = "td";
+                break;
+            case "INGLES":
+                color = "orange";
+                clase = "." + pulsado.toLowerCase();
                 break;
         }
+        $(clase).css("backgroundColor", color);
         
     });
-
-
 
    });

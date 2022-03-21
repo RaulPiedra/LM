@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+    <articulo sn="155858">
+        <pn>A00127CH</pn>
+        <descripcion>
+            <desCorta>
+                Monitor Asus
+            </desCorta>
+            <desLarga>
+                Monitor Asus chk 24 pulgadas gaming
+            </desLarga>
+        </descripcion>
+        <precio moneda="€">
+            95
+        </precio>
+        <marca>
+            Asus
+        </marca>
+        <familia>
+            Monitores
+        </familia>
+    </articulo>
+    <articulo sn="155859">
+        <pn>A00127DH</pn>
+        <descripcion>
+            <desCorta>
+                Raton Logitech
+            </desCorta>
+            <desLarga>
+                Raton Logitech mk510 wireless
+            </desLarga>
+        </descripcion>
+        <precio moneda="€">
+            12
+        </precio>
+        <marca>
+            Logitech
+        </marca>
+        <familia>
+            Ratones y Teclados
+        </familia>
+    </articulo>
+</productos>
