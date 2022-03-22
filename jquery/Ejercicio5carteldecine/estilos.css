@@ -1,0 +1,146 @@
+            @import url('https://fonts.googleapis.com/css?family=Oswald');
+            #contenedor {
+                background-color: #F4F6F7;
+                height:100%;
+            }
+            *{ 
+            margin:0;
+            padding:0;
+            box-sizing: border-box;}
+            h1, h2 {
+                text-align: center;
+                margin-bottom:20px;
+                font-family: 'Oswald', sans-serif;
+                letter-spacing: 4px;
+            }
+            h2 {
+                border-bottom:1px solid gray;
+                margin-bottom:20px;
+            }
+            .col {
+                font-size:2em;
+            }
+            .col div {
+                
+                color:blue;
+            }
+            .col div:hover {
+                opacity:0.5;
+                color:red;
+            }
+            #flecha1, #flecha2, #flecha3, #flecha4, #flecha5, #flecha6  {
+                cursor:pointer;
+                position:relative;
+                top:-13%;
+                left:65%;
+                /*Para probar el div el ancho que ocupa*/
+                /*background-color:yellow;*/
+                width:35px;
+            }
+            img {
+                cursor:pointer;
+                display:block;
+                margin:0 auto;
+                width:190px;
+                height:250px;
+            }
+            .peliculas {
+                display:flex;
+                justify-content: center;
+                margin-bottom:40px;
+            }
+            #cuadro1 {
+                border-radius:50%;
+                border:3px solid white;
+            }
+            .peliculas .col {
+                width:25%;
+                border:1px dotted; 
+            }
+            .pie {
+                background-color: #EFF1F3;
+                padding:20px;
+            }
+            .sinopsis {
+                width:70%;
+                margin: 20px auto;
+                border:1px solid #EFF1F3;
+            }
+            .cabecera {
+                padding:20px;
+            }
+            .azul {
+                color:blue;
+            }
+            p.titulo {
+                font-size:14px;
+                text-align: center;
+                margin-top:-10px;
+                margin-bottom:10px;
+            }
+            h3.linea {
+                color:#3982AC;
+                border-bottom:3px solid red;
+                margin-bottom:10px;
+                padding-bottom:5px;
+            }
+            hr {
+                background-color:red;
+                height:5px;
+                margin-top:5px;
+                border:none;
+            }
+            hr.izquierda {
+                margin-left:30px;
+                margin-right:730px;
+            }
+             hr.centro {
+                margin-left:380px;
+                margin-right:380px;
+            }
+             hr.derecha {
+                margin-left:730px;
+                margin-right:30px;
+            }
+            p.parrafo {
+                text-align: justify;
+                text-indent:40px;
+            }
+            span.fecha {
+                color:blue;
+                font-style: italic;
+            }
+            #flotante {
+                position:fixed;
+                width:700px;
+                height:450px;
+                top:50%;
+                left:50%;
+                margin-left:-350px;
+                margin-top:-225px;
+				background-color:#F6EAC4;
+				border-radius:25px 25px 0px 0px;
+		
+            }
+            #marco {
+                width:100%;
+                height:100%;
+				font-size:1.2em;
+				padding:15px;
+				text-align:justify;
+            }
+            p.cerrar {
+                background-color:#EFF1F3; 
+                text-align:right;
+				border-radius:25px;
+				padding:5px;
+            }
+            #x {
+                cursor:pointer;
+                font-size:2em;
+                color:red;
+                font-style:italic;
+            }
+            #x:hover {
+                opacity:0.5;
+            }
