@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css?family=Risque');
+            h1, h2, h3 {
+                font-family: 'Risque', cursive;
+                text-align:center;
+                border-bottom: 3px solid;
+            }
+            #contenido {
+                display:flex;
+                justify-content: space-around;
+            }
+            #contenido .columna {
+                border:1px dotted;
+                width:25%;
+                background-color:#DBE2E6;
+                border-radius: 5px;
+                padding:15px;
+            }
+            img {
+                cursor:pointer;
+                width:50%;
+                display:block;
+                margin:0 auto;
+            }
+            .columna p {
+                text-align: justify;
+                font-size:1.2em;
+            }
+            #mas1, #menos1,#mas2, #menos2,#mas3, #menos3 {
+                color:blue;
+                text-decoration: underline;
+                cursor:pointer;
+                margin:5px;
+            }
+            body {
+                background-color: #AEDAF7;
+            }
+            #imagen {
+                position:fixed;
+                background-color:gray;
+                width:500px;
+                height:285px;
+                z-index:101;
+                top:50%;
+                left:50%;
+                /*Para centrarlo le pongo la mitad de su ancho en negativo*/
+                margin-left:-250px;
+                /*Lo mismo con el alto*/
+                margin-top:-150px;
+				/*Ocultamos el div que contendrá las imágenes*/
+                display:none;
+                border:10px solid gray;
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            #imagen p {
+                margin-right:20px;
+                margin-top:-5px;
+                text-align: right;
+                color:white;
+                cursor:pointer;
+                letter-spacing: 120%;
+                font-size:2em;
+            }
+            @media (max-width:700px){
+                #contenido {
+                    display:block;
+                }
+                #contenido .columna {
+                    width:80%;
+                    margin:10px auto;
+                }
+            }

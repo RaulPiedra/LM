@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--https://www.xmlvalidation.com-->
+<!DOCTYPE productos [
+    <!ELEMENT productos (producto)>
+    <!ELEMENT producto (pn, marca, precio, condiciones_dev)>
+    <!ELEMENT pn (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT condiciones_dev (garantia, dev, doa)>
+    <!ELEMENT garantia (#PCDATA)>
+    <!ELEMENT dev (#PCDATA)>
+    <!ELEMENT doa (#PCDATA)>
+
+]>
+
+<productos>
+    <producto>
+        <pn>
+            124
+        </pn>
+
+        <marca>
+            Canon
+        </marca>
+
+        <precio>
+            99
+        </precio>
+
+        <condiciones_dev>
+            <garantia>
+                36
+            </garantia>
+
+            <dev>
+                Si
+            </dev>
+
+            <doa>
+                15
+            </doa>
+        </condiciones_dev>
+    </producto>
+    <producto>
+        <pn>
+            123
+        </pn>
+
+        <marca>
+            HP
+        </marca>
+
+        <precio>
+            99
+        </precio>
+
+        <condiciones_dev>
+            <garantia>
+                36
+            </garantia>
+
+            <dev>
+                Si
+            </dev>
+
+            <doa>
+                15
+            </doa>
+        </condiciones_dev>
+    </producto> 
+</productos>
