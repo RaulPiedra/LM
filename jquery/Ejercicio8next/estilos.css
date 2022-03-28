@@ -1,0 +1,32 @@
+input {
+    width:15%;
+    height:10%;
+    font-size:1.7em;
+    margin:5px;
+    cursor:pointer;
+	padding:15px;
+	display:block;
+	margin:15px auto;
+	
+}
+#faldoncillo {
+	height:50px;
+	width:75%;
+	background-color:grey;
+	border:1px groove black;
+	margin:35px auto;
+	border-radius:15px;
+}
+img {
+	margin:0 auto;
+	display:block;
+	border-radius:25px;
+	border:25px inset grey;
+}
+.textos {
+	margin:20px;
+	font-size:1.7em;
+	text-align:justify;
+	border-bottom:0.5px dashed navy;
+	padding:10px;
+}

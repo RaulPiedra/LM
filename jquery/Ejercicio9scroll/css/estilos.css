@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#logo img {
+    width:250px;
+    height:37px;
+    margin:5px;
+}
+
+body {
+    background-color:#f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    padding-top:55px; /*Porque sino el menu te taparía el contenido*/
+}
+header {
+    background-color:#4357ad;
+    position:fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    height:46px;
+}
+p {
+    line-height: 150%;
+    text-align:justify;
+    font-size:1.2em;
+    margin-bottom:20px;
+}
+.menu {
+    width:90%;
+    max-width: 1000px;
+    margin:0 auto;
+    /*background-color:orange;/*Para ir viendo como queda, al final se quita*/
+    display:flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    align-items: center; /*Para centar ambas cosas en el centro*/
+}
+
+   #enlaces{
+       display:inline-block;
+       text-align:right;/*Probar si estas dos cambian algo*/
+   }
+   #enlaces a {
+       text-decoration:none;
+       color:white;
+       padding:10px;
+   }
+   #enlaces a i {
+       margin-right:5px;
+   }
+   #enlaces a:hover{
+       background-color:white;
+       color:#4357ad;
+   }
+   #principal {
+       width:90%;
+       max-width:1000px;
+       margin:0 auto;
+       background-color:white;
+       padding:30px;
+       box-shadow: 10px 10px 5px #aaaaaa;/*10 por la derecha, 10 por abajo y 5*/
+       margin-bottom:25px;
+   }
+   h1 {
+       color: #4357ad;
+       margin-bottom:10px;
+      
+   }
+   hr {/*Cambiamos la barra de color, para ello debemos quitarle el borde*/
+       margin-bottom: 10px;
+       height:3px;
+       background-color: #4357ad;
+       border:none;
+   }
+   #check {
+       visibility: hidden;
+   }
+   .icono-menu {
+       cursor:pointer;
+       display:none;
+       color:white;
+   }
+   #subo {
+       position:fixed;
+       right:170px;
+       bottom:10px;
+       width:50px;
+       opacity:0.5;
+       cursor:pointer;
+       display:none;
+   }
+   /*Esto lo anulo para más adelante*/
+   @media (max-width:768px){
+       #logo img {
+            display:none;
+              }
+        #enlaces {
+              display:none;    
+              } 
+        .icono-menu {
+             display:block;
+             position:fixed;
+             right:20px;
+             top:10px;
+             font-size:1.5em;
+   }      
+   .icono-menu:hover {
+             color:black;
+   } 
+   
+   }
+   
+   input {
+	   position:fixed;
+	   top:100px;
+	   left:100px;
+	   height:70px;
+	   width:100px;
+	   border:1px solid black;
+	   font-size:2em;
+	   text-align:center;
+   }
