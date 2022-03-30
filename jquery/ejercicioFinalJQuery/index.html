@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Práctica final de JQUERY</title>
+		<meta charset="utf-8"/>
+		<meta name="robots" content="noindex" />
+		<link href="estilos.css" rel="stylesheet" type="text/css"/>
+		<script src="jquery-3.6.0.min.js" type="text/javascript">
+		</script>
+	</head>
+	<body>
+		<div id="cuerpo">
+			<div id="encabezado">
+			   <h1>Cuánto sabes de Criptografía</h1>
+			   <p>Reglas: marca una respuesta en cada pregunta<br/>
+			   Se marca con un click en la letra</p>
+			</div>
+			<div class="preguntas" id="pregunta1">
+				<p>1. ¿Por qué se caracteriza una función HASH?</p>
+					<input type="button" class="respuestas" id="respuesta1" value="A)"/><span id="alge">Por ser irreversible</span><br/>
+					<input type="button" class="respuestas" id="respuesta2" value="B)"/><span id="linea">Por ser reversible</span><br/>
+					<input type="button" class="respuestas" id="respuesta3" value="C)"/><span id="cadiz">Por no producir colisiones</span>
+			</div>
+			<div class="preguntas" id="pregunta2">
+				<p>2. ¿En la firma digital?</p>
+					<input type="button" class="respuestas" id="respuesta4" value="A)"/><span id="alge">Le aplicamos un cifrado al mensaje en claro</span><br/>
+					<input type="button" class="respuestas" id="respuesta5" value="B)"/><span id="linea">Le aplicamos una función hash al mensaje en claro</span><br/>
+					<input type="button" class="respuestas" id="respuesta6" value="C)"/><span id="cadiz">No le aplicamos nada al mensaje</span>
+			</div>
+			<div class="preguntas" id="pregunta3">
+				<p>3. ¿El algoritmo AES se usa en?</p>
+					<input type="button" class="respuestas" id="respuesta7" value="A)"/><span id="alge">Funciones HASH</span><br/>
+					<input type="button" class="respuestas" id="respuesta8" value="B)"/><span id="linea">Cifrado simétrico</span><br/>
+					<input type="button" class="respuestas" id="respuesta9" value="C)"/><span id="cadiz">Cifrado asimétrico</span>
+			</div>
+			<div class="preguntas" id="pregunta4">
+				<p>4. ¿En el cifrado asimétrico, si cifro con la clave pública, busco?</p>
+					<input type="button" class="respuestas" id="respuesta1" value="A)"/><span id="alge">Confidencialidad</span><br/>
+					<input type="button" class="respuestas" id="respuesta2" value="B)"/><span id="linea">Autenticación</span><br/>
+					<input type="button" class="respuestas" id="respuesta3" value="C)"/><span id="cadiz">Ambas cosas</span>
+			</div>
+		</div>
+		<div id="enviar">
+			<input id="enviar" type="button" value="Enviar respuestas"/>
+		</div>
+		<div id="correcta">
+			<div id="aciertos"></div>
+			<div id="cerrar">Cerrar(X)</div>
+		</div>
+		<script src="javas.js" type="text/javascript">
+		</script>
+		<script type='text/javascript'>
+	        document.oncontextmenu = function(){return false}
+        </script>
+	</body>
+</html>
