@@ -10,7 +10,36 @@ $(document).ready(function () {
 
     var respuestas = [];
 
-    $(".respuestas").click(function () {
+    $("#pregunta1 .respuestas").click(function(){
+        $("#pregunta1 .respuestas").css("backgroundColor", "blue");
+        $(this).css("backgroundColor", "green");
+        respuestas[0] = $(this).attr("id");
+        alert(respuestas[0]);
+    });
+
+    $("#pregunta2 .respuestas").click(function(){
+        $("#pregunta2 .respuestas").css("backgroundColor", "blue");
+        $(this).css("backgroundColor", "green");
+        respuestas[1] = $(this).attr("id");
+        alert(respuestas[1]);        
+    });
+
+    $("#pregunta3 .respuestas").click(function(){
+        $("#pregunta1 .respuestas").css("backgroundColor", "blue");
+        $(this).css("backgroundColor", "green");
+        respuestas[2] = $(this).attr("id"); 
+        alert(respuestas[2]);       
+    });
+
+    $("#pregunta4 .respuestas").click(function(){
+        $("#pregunta4 .respuestas").css("backgroundColor", "blue");
+        $(this).css("backgroundColor", "green");
+        respuestas[3] = $(this).attr("id"); 
+        alert(respuestas[3]);       
+    });
+    
+
+    /*$(".respuestas").click(function () {
         $(this).css("backgroundColor", "green");
         var pulsado = $(this).attr("id");
 
@@ -76,9 +105,9 @@ $(document).ready(function () {
                 respuestas[3] = 3;
                 break;
         }
-    });
+    });*/
 
-    var resuelto = [1, 2, 3, 1];
+    var resuelto = ["respuesta1", "respuesta5", "respuesta9", "respuesta10"];
     var aciertos = 0;    
 
     $("#enviar").click(function(){
