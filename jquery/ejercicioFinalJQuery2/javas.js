@@ -8,78 +8,66 @@ $(document).ready(function () {
         $(this).css("backgroundColor", "transparent");
     });
 
+    var proceso = setInterval(cuenta, 1000);
+    
+    var segundos = 30;
+    function cuenta() {
+        $("#cuenta").attr("value", segundos);
+        if (segundos > 10) {
+            $("#cuenta").css("color", "green");
+        }
+        else if (segundos <= 10 && segundos > 0) {
+            $("#cuenta").css("color", "red");
+            if (segundos % 2 == 0) {
+                $("body").css("backgroundColor", "white");
+            }
+            else {
+                $("body").css("backgroundColor", "red");
+
+            }
+            
+            //parpadeo = setInterval(cambiaFondo, 500);
+        }
+        else if (segundos == 0) {
+            $("body").css("backgroundColor", "red");
+            clearInterval(proceso);
+            
+        }
+        segundos--;
+    }    
+
     var respuestas = [];
 
-    $(".respuestas").click(function () {
+    $("#pregunta1 .respuestas").click(function(){
+        $("#pregunta1 .respuestas").css("backgroundColor", "blue");
         $(this).css("backgroundColor", "green");
-        var pulsado = $(this).attr("id");
-
-        switch (pulsado) {
-            case "respuesta1":
-                $("#respuesta2").css("backgroundColor", "blue");
-                $("#respuesta3").css("backgroundColor", "blue");
-                respuestas[0] = 1;
-                break;
-            case "respuesta2":
-                $("#respuesta1").css("backgroundColor", "blue");
-                $("#respuesta3").css("backgroundColor", "blue");
-                respuestas[0] = 2;
-                break;
-            case "respuesta3":
-                $("#respuesta1").css("backgroundColor", "blue");
-                $("#respuesta2").css("backgroundColor", "blue");
-                respuestas[0] = 3;
-                break;
-            case "respuesta4":
-                $("#respuesta5").css("backgroundColor", "blue");
-                $("#respuesta6").css("backgroundColor", "blue");
-                respuestas[1] = 1;
-                break;
-            case "respuesta5":
-                $("#respuesta4").css("backgroundColor", "blue");
-                $("#respuesta6").css("backgroundColor", "blue");
-                respuestas[1] = 2;
-                break;
-            case "respuesta6":
-                $("#respuesta4").css("backgroundColor", "blue");
-                $("#respuesta5").css("backgroundColor", "blue");
-                respuestas[1] = 3;
-                break;
-            case "respuesta7":
-                $("#respuesta8").css("backgroundColor", "blue");
-                $("#respuesta9").css("backgroundColor", "blue");
-                respuestas[2] = 1;
-                break;
-            case "respuesta8":
-                $("#respuesta7").css("backgroundColor", "blue");
-                $("#respuesta9").css("backgroundColor", "blue");
-                respuestas[2] = 2;
-                break;
-            case "respuesta9":
-                $("#respuesta7").css("backgroundColor", "blue");
-                $("#respuesta8").css("backgroundColor", "blue");
-                respuestas[2] = 3;
-                break;
-            case "respuesta10":
-                $("#respuesta11").css("backgroundColor", "blue");
-                $("#respuesta12").css("backgroundColor", "blue");
-                respuestas[3] = 1;
-                break;
-            case "respuesta11":
-                $("#respuesta10").css("backgroundColor", "blue");
-                $("#respuesta12").css("backgroundColor", "blue");
-                respuestas[3] = 2;
-                break;
-            case "respuesta12":
-                $("#respuesta10").css("backgroundColor", "blue");
-                $("#respuesta11").css("backgroundColor", "blue");
-                respuestas[3] = 3;
-                break;
-        }
+        respuestas[0] = $(this).attr("id");
+        
     });
 
-    var resuelto = [1, 2, 3, 1];
-    var aciertos = 0;    
+    $("#pregunta2 .respuestas").click(function(){
+        $("#pregunta2 .respuestas").css("backgroundColor", "blue");
+        $(this).css("backgroundColor", "green");
+        respuestas[1] = $(this).attr("id");
+                
+    });
+
+    $("#pregunta3 .respuestas").click(function(){
+        $("#pregunta1 .respuestas").css("backgroundColor", "blue");
+        $(this).css("backgroundColor", "green");
+        respuestas[2] = $(this).attr("id"); 
+               
+    });
+
+    $("#pregunta4 .respuestas").click(function(){
+        $("#pregunta4 .respuestas").css("backgroundColor", "blue");
+        $(this).css("backgroundColor", "green");
+        respuestas[3] = $(this).attr("id"); 
+               
+    });
+
+    var resuelto = ["respuesta1", "respuesta5", "respuesta9", "respuesta10"];    
+    aciertos = 0;    
 
     $("#enviar").click(function(){
         $(window).scrollTop(0);
@@ -88,20 +76,30 @@ $(document).ready(function () {
                 aciertos++;
             }
         }
+        alert(aciertos);
 
         
-        if (aciertos == 4) {
-            $("#aciertos").text("Enhorabuena, el numero de aciertos es:" + aciertos);
+        if (segundos == -1) {
+            $("#aciertos").text("Lo siento, tiempo excedido");
+            $("#cuerpo").hide();
         }
         else {
-            $("#aciertos").text("Lo siento, el numero de aciertos es:" + aciertos);
+            if (aciertos == 4) {
+                $("#aciertos").text("Enhorabuena, el numero de aciertos es:" + aciertos);
+            }
+            else {
+                $("#aciertos").text("Lo siento, el numero de aciertos es:" + aciertos);
+            }
         }
+        
+        
         $("#correcta").slideDown(2000);
     });
 
     $("#cerrar").click(function(){
         $("#correcta").slideUp(2000);        
         $(".respuestas").css("backgroundColor", "blue");
+        location.reload();
         respuestas = [0, 0, 0, 0];
         aciertos = 0;
     });

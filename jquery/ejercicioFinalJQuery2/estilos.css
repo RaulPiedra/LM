@@ -73,3 +73,19 @@ p {
 #cerrar {
 	cursor:pointer;
 }
+#contador {
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top: 50px;
+	right: 100px;
+
+}
+#cuenta {
+	background-color:transparent;
+	width:70px;
+	height:70px;
+	font-size:3em;
+	text-align:center;
+	color: green;
+}
