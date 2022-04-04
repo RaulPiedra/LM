@@ -6,35 +6,48 @@ $(document).ready(function () {
     });
     $("span").mouseout(function () {
         $(this).css("backgroundColor", "transparent");
-    });
-
-    var proceso = setInterval(cuenta, 1000);
+    });    
+    
+        proceso = setInterval(cuenta, 1000);    
     
     var segundos = 30;
     function cuenta() {
         $("#cuenta").attr("value", segundos);
-        if (segundos > 10) {
+        if (segundos == 30) {
             $("#cuenta").css("color", "green");
         }
-        else if (segundos <= 10 && segundos > 0) {
+        if (segundos == 10) {
             $("#cuenta").css("color", "red");
-            if (segundos % 2 == 0) {
+            /*if (segundos % 2 == 0) {
                 $("body").css("backgroundColor", "white");
             }
             else {
                 $("body").css("backgroundColor", "red");
 
-            }
+            }*/
+            proceso2 = setInterval(cambiaFondo, 500);
             
-            //parpadeo = setInterval(cambiaFondo, 500);
+            
         }
-        else if (segundos == 0) {
+        if (segundos == 0) {
             $("body").css("backgroundColor", "red");
             clearInterval(proceso);
+            clearInterval(proceso2);
             
         }
         segundos--;
-    }    
+    }  
+    
+    const fondo_original = $("body").css("backgroundColor");
+    function cambiaFondo() {
+        var fondo = $("body").css("backgroundColor");
+        if (fondo == fondo_original) {
+            $("body").css("backgroundColor", "red");
+        }
+        else {
+            $("body").css("backgroundColor", fondo_original);
+        }
+    }
 
     var respuestas = [];
 
@@ -75,9 +88,7 @@ $(document).ready(function () {
             if (resuelto[i] == respuestas[i]) {
                 aciertos++;
             }
-        }
-        alert(aciertos);
-
+        }        
         
         if (segundos == -1) {
             $("#aciertos").text("Lo siento, tiempo excedido");
