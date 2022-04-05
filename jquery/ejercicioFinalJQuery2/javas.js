@@ -96,7 +96,7 @@ $(document).ready(function () {
         }
         else {
             if (aciertos == 4) {
-                $("#aciertos").text("Enhorabuena, el numero de aciertos es:" + aciertos);
+                $("#aciertos").text("Enhorabuena, el numero de aciertos es: " + aciertos + ", le han sobrado "+ (segundos+1) + " segundos");
             }
             else {
                 $("#aciertos").text("Lo siento, el numero de aciertos es:" + aciertos);
