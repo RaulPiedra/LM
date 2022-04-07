@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tenistas [
+    <!ELEMENT tenistas (tenista*)>
+    <!ELEMENT tenista (nombre, ciudad, entrenadores)>
+    <!ATTLIST tenista ranking CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT entrenadores (entrenador*)>
+    <!ELEMENT entrenador (#PCDATA)>
+]>
+<tenistas>
+    <tenista ranking="11">
+        <nombre>
+            Carlos Alcaraz
+        </nombre>
+            
+        <ciudad>
+            Murcia
+        </ciudad>
+
+        <entrenadores>
+
+            <entrenador>
+                Juan Carlos Ferrero
+            </entrenador>
+            <entrenador>
+                Carlos Alcaraz (Padre)
+            </entrenador>
+
+
+        </entrenadores>
+    </tenista>
+
+    <tenista ranking="4">
+        <nombre>
+            Rafael Nadal
+        </nombre>
+            
+        <ciudad>
+            Manacor
+        </ciudad>
+
+        <entrenadores>
+            <entrenador>
+                Carlos Costa
+            </entrenador>
+        </entrenadores>
+    </tenista>
+
+</tenistas>
