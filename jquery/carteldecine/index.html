@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cartelera de Cine</title>
+        <meta charset="UTF-8">
+        <meta name="robots" content="nofollow"/>
+		<meta name="robots" content="noindex"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="fontawesome-all.js" type="text/javascript"></script>
+        <link href="estilos.css" rel="stylesheet" type="text/css"/> 
+    </head>
+    <body>
+       
+        <div id="contenedor">
+          <h1>CATÁLOGO DISPONIBLE</h1>
+          <h2>NETFLIX - PELICULAS DE CULTO</h2>
+		  <div id="aplicados">
+			<a href="Ciencia ficción" id="quitaotros">Otros (x)</a>
+			<a href="Ciencia ficción" id="quitacomedia">Comedia (x)</a>
+			<a href="Ciencia ficción" id="quitaterror">Terror (x)</a>
+		  </div>
+          <div class="peliculas">
+                  <img src="pelis/otros/archivos.jpg" class="otros" alt="" id="imagen1"/>
+                  <img src="pelis/comedia/alquimista.jpg" class="comedia" alt="" id="imagen3"/>
+				  <img src="pelis/terror/alien.jpg" class="terror" alt="" id="imagen2"/>
+                  <img src="pelis/comedia/agarralo.jpg" class="comedia" alt="" id="imagen3"/>
+				  <img src="pelis/terror/black.jpg"  class="terror" alt="" id="imagen4"/>
+				  <img src="pelis/terror/elexorcista.jpg" class="terror" alt="" id="imagen5"/>
+				  <img src="pelis/terror/haunting.jpg"  class="terror" alt="" id="imagen5"/>
+				  <img src="pelis/terror/losotros.jpg"  class="terror" alt="" id="imagen5"/>
+				  <img src="pelis/terror/resplandor.jpg"  class="terror" alt="" id="imagen5"/>
+				  <img src="pelis/comedia/comedia.jpg"  class="comedia" alt="" id="imagen3"/>
+				  <img src="pelis/terror/sexto.jpg"  class="terror" alt="" id="imagen5"/>
+                  <img src="pelis/comedia/dios.jpg"  class="comedia" alt="" id="imagen3"/>
+				  <img src="pelis/otros/love.jpg"  class="otros" alt="" id="imagen8"/>
+                  <img src="pelis/otros/mazinger.jpg"  class="otros" alt="" id="imagen9"/>
+				  <img src="pelis/comedia/dostontos.jpg" class="comedia" alt="" id="imagen3"/>
+				  <img src="pelis/comedia/forest.jpg" class="comedia" alt="" id="imagen3"/>
+				  <img src="pelis/comedia/friends.jpg" class="comedia" alt="" id="imagen3"/>
+				  <img src="pelis/otros/zama.jpg" class="otros" alt="" id="imagen10"/>
+				  <img src="pelis/comedia/intocable.jpg" class="comedia" alt="" id="imagen3"/>
+				  <img src="pelis/otros/dia.jpg" class="otros" alt="" id="imagen11"/>
+				  <img src="pelis/otros/titanic.jpg" class="otros" alt="" id="imagen13"/>
+                  <img src="pelis/otros/milla.jpg" class="otros" alt="" id="imagen14"/>
+                  <img src="pelis/comedia/padres.jpg" class="comedia" alt="" id="imagen3"/>
+				  <img src="pelis/otros/cadena.jpg" class="otros" alt="" id="imagen16"/>
+				  <img src="pelis/terror/stranger.jpg" class="terror" alt="" id="imagen5"/>
+				  <img src="pelis/terror/walking.jpg" class="terror" alt="" id="imagen5"/>
+		</div>
+		<div id="botonfiltros">
+			<input type="button" value="filtros"/>
+		</div>
+		<div id="filtros">
+			<div class="lineas" id="esp">
+				<img src="flecha.png" id="flecha" alt="flecha abajo"/>
+			</div>
+			<div class="lineas"> 
+				<div class="generos">
+					Otros
+				</div>
+				<div class="botones">
+				    <input type="checkbox" id="otros" name="genero1"/>
+				</div>	
+			</div>
+			<div class="lineas"> 
+				<div class="generos">
+					Comedia
+				</div>
+				<div class="botones"> 
+				   <input type="checkbox" id="com" name="genero2"/>
+				</div>   
+			</div>
+			<div class="lineas"> 
+				<div class="generos">
+					Terror
+				</div>
+				<div class="botones">
+				   <input type="checkbox" id="terr" name="genero3"/>
+				</div>   
+			</div>
+		
+		</div>
+        <script src="javas.js" type="text/javascript">
+			
+        </script>
+		<script type='text/javascript'>
+	       document.oncontextmenu = function(){return false}
+        </script>
+    </body>
+</html>

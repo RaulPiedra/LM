@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+*{ 
+  margin:0;
+  padding:0;
+  font-family: 'Oswald', sans-serif;
+  }
+#contenedor {
+   background-color: #F4F6F7;
+   height:100%;
+   margin:10px auto;
+    }
+h1, h2 {
+  text-align: center;
+  margin-bottom:20px;
+  letter-spacing: 4px;
+   }
+h2 {
+  border-bottom:1px solid gray;
+  margin-bottom:20px;
+  }
+.peliculas {
+	display:flex;
+	flex-wrap:wrap;
+	box-sizing: border-box;
+	justify-content:space-around;
+}
+img {
+	width:20%;
+	margin:15px;
+}
+#botonfiltros {
+	display:flex;
+	justify-content:center;
+}
+#botonfiltros input {
+	border-radius:15px;
+	padding:10px;
+	font-size:1.2em;
+	text-align:center;
+	position:fixed;
+	bottom:30px;
+	left:50%;
+	width:100px;
+	opacity:0.5;
+	cursor:pointer;
+	background-color:white;
+	color:black;
+	margin-left:-50px;
+}
+input:hover {
+	opacity:1;
+}
+#filtros {
+	position:fixed;
+	width:100%;
+	bottom:0px;
+	/*height:40vh;*/
+	background-color:#4F4C4B;
+	color:white;
+	align-items:center;
+	display:flex;
+	flex-direction:column;
+}
+.lineas {
+	display:flex;
+	justify-content:space-around;
+	border-bottom:1px dashed grey;
+}
+.lineas div {
+	width:150px;
+	margin:5px;
+	font-size:1.1em;
+	padding:5px;
+}
+a {
+	border:2px solid black;
+	padding:5px;
+	margin:10px;
+	border-radius:5px;
+	cursor:pointer;
+	color:black;
+	text-decoration:none;
+}
+#aplicados {
+	margin-bottom:15px;
+}
+#flecha {
+	width:30px;
+	border-radius:10px;
+	border-bottom:none;
+	cursor:pointer;
+}
+#esp {
+	border:none;
+	margin-top:0;
+}
+#flecha:hover {
+	opacity:0.5;
+}

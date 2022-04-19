@@ -1,0 +1,16 @@
+[
+{
+    "nombre": "Jose Barea",
+    "direccion": "Calle Plata 8",
+    "edad": 28,
+    "idiomas": ["ingles", "aleman", "chino"],
+    "annosEmpresa": 0
+},
+{
+    "nombre": "Ana Barea",
+    "direccion": "Calle Plata 1",
+    "edad": 58,
+    "idiomas": ["ingles", "aleman"],
+    "annosEmpresa": 2
+}
+]
