@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE serviciosWeb [
+    <!ELEMENT serviciosWeb (servicio*)>
+    <!ELEMENT servicio (nombre, precio, duracion)>
+    <!ATTLIST servicio id CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT precio (tarifaA?, tarifaB?)>
+    <!ATTLIST precio moneda CDATA #REQUIRED>
+    <!ELEMENT tarifaA (#PCDATA)>
+    <!ELEMENT tarifaB (#PCDATA)>
+    <!ELEMENT duracion (#PCDATA)>
+]>
+
+
+<serviciosWeb>
+	<servicio id="A001">
+		<nombre>
+			Auditoria Web
+		</nombre>
+		<precio moneda="euro">
+			<tarifaA>
+				300
+			</tarifaA>
+			<tarifaB>
+				600
+			</tarifaB>
+		</precio>
+		<duracion>
+			 1 mes
+		</duracion>
+	</servicio>
+	<servicio id="A001">
+		<nombre>
+			Corección errores I
+		</nombre>
+		<precio moneda="euro">
+			<tarifaA>
+				900
+			</tarifaA>
+		</precio>
+		<duracion>
+			 15 días
+		</duracion>
+	</servicio>
+</serviciosWeb>

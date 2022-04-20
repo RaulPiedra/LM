@@ -1,0 +1,26 @@
+{"trabajadores":
+    [
+        {
+            "nombre": "Elena Barranco",            
+            "edad": 39,
+            "area": "ventas", 
+            "clientesTop": ["Amazon", "PCComp", "Depau"],
+            "idiomas": {"ingles": "nivel medio", "frances": null, "otros": "Catalán nivel medio"},
+            "informatica": [{"tipo": "Procesador de textos", "nivel": "medio"}, {"tipo": "Hoja de calculo", "nivel": "alto"}],
+            "mesesEmpresa": 120
+            
+        },
+
+        {
+            "nombre": "Ana Miras",            
+            "edad": 36,
+            "area": "compras", 
+            "clientesTop": ["Eroski", "Dynos", "MediaMarkt"],
+            "idiomas": {"ingles": "nivel medio", "frances": "nivel medio", "otros": null},
+            "informatica": [{"tipo": "Procesador de textos", "alto": "medio"}, {"tipo": "Hoja de calculo", "nivel": "alto"}],
+            "mesesEmpresa": 45
+            
+        }
+    
+    ]
+    }
