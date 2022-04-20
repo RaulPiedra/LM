@@ -1,0 +1,35 @@
+{"trabajadores":
+[
+    {
+        "nombre": "José Guzmán",
+        "estudios": "superiores",
+        "edad": 46,
+        "lenguajes": [
+            "Visual Basic",
+            "Cobol",
+            "Python"
+        ],
+        "idiomas": {
+            "ingles": "nivel medio",
+            "frances": "nivel medio",
+            "otros": "chino nivel medio"
+        }
+    },
+    {
+        "nombre": "Ana Lopez",
+        "estudios": "basicos",
+        "edad": 33,
+        "lenguajes": [
+            "Java",
+            "JS",
+            "C++"
+        ],
+        "idiomas": {
+            "ingles": "nivel avanzado",
+            "frances": "nivel avanzado",
+            "otros": null
+        }
+    }
+
+]
+}
