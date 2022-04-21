@@ -1,0 +1,54 @@
+{
+    "candidatos": [
+        {
+            "nombre": "Enrique",
+            "apellido": "Lopez",
+            "edad": 24,
+            "telefono": "950282828",
+            "estadoCivil": "casado",
+            "experiencia": [
+                {
+                    "empresa": "Microsoft",
+                    "periodo": "2 años",
+                    "puesto": "Director de proyectos"
+                },
+                {
+                    "empresa": "Google",
+                    "periodo": "3 años",
+                    "puesto": "Coordinador SEO"
+                },
+                {
+                    "empresa": "Facebook",
+                    "periodo": "3 años",
+                    "puesto": "Director de marketing"
+                }
+            ],
+            "hijos": 2
+        },
+        {
+            "nombre": "Ana",
+            "apellido": "Martinez",
+            "edad": 24,
+            "telefono": "950282828",
+            "estadoCivil": "casado",
+            "experiencia": [
+                {
+                    "empresa": "Microsoft",
+                    "periodo": "2 años",
+                    "puesto": "Director de proyectos"
+                },
+                {
+                    "empresa": "Google",
+                    "periodo": "3 años",
+                    "puesto": "Coordinador SEO"
+                },
+                {
+                    "empresa": "Facebook",
+                    "periodo": "3 años",
+                    "puesto": "Director de marketing"
+                }
+            ],
+            "hijos": 3
+        }
+    ]
+}
