@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>json + consola V1</title>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            var persona = {
+                "nombre": "Juan",
+                "apellido": "Lopez",
+                "edad": 28
+            };
+            var personas = [
+            {
+                "nombre": "Juan",
+                "apellido": "Lopez",
+                "edad": 28
+            },
+            {
+                "nombre": "Ana",
+                "apellido": "Lirola",
+                "edad": 48
+            }
+        ];
+            console.log("Bienvenido a la consola");
+            console.log(persona);
+            console.log("***********");
+            console.log(persona.nombre);
+            console.log(persona.apellido);
+            console.log(persona.edad);
+            console.log("***********");
+            console.log(personas[1].nombre);
+            console.log(personas[1].apellido);
+            console.log(personas[1].edad);
+            console.log("***********");
+            for(var i = 0; i < personas.length; i++) {
+                console.log(personas[i].nombre);
+                console.log(personas[i].apellido);
+                console.log(personas[i].edad);
+                console.log("***********");
+            }
+        </script>
+    </body>
+</html>
