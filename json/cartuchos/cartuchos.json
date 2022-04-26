@@ -1,0 +1,28 @@
+{"cartuchos":
+[
+    {
+        "pn": "AK779",
+        "marca": "HP",
+        "descripcion": "Cartucho 21XL negro",
+        "precio": 12.26,
+        "stock": 26,
+        "pack": false,
+        "impComp": [
+            "1212",
+            "1310"
+        ]
+    },
+    {
+        "pn": "AK889",
+        "marca": "HP",
+        "descripcion": "Cartucho 21XL negro",
+        "precio": 14.50,
+        "stock": 27,
+        "pack": false,
+        "impComp": [
+            "128",
+            "139"
+        ]
+    }
+]
+}
