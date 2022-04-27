@@ -6,41 +6,72 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <div id="cuerpo">
+            <div id="pn"></div>
+            <div id="marca"></div>
+            <div id="descripcion"></div>
+            <div id="precio"></div>
+        </div>
+        <div id="cuerpo2"></div>
         <script>
-            var persona = {
-                "nombre": "Juan",
-                "apellido": "Lopez",
-                "edad": 28
+            var cartuchos = {"cartuchos":
+            [
+                {
+                    "pn": "AK779",
+                    "marca": "HP",
+                    "descripcion": "Cartucho 21XL negro",
+                    "precio": 12.26,
+                    "stock": 26,
+                    "pack": false,
+                    "impComp": [
+                        "1212",
+                        "1310"
+                    ]
+                },
+                {
+                    "pn": "AK889",
+                    "marca": "HP",
+                    "descripcion": "Cartucho 21XL negro",
+                    "precio": 14.50,
+                    "stock": 27,
+                    "pack": false,
+                    "impComp": [
+                        "128",
+                        "139"
+                    ]
+                }
+            ]
             };
-            var personas = [
-            {
-                "nombre": "Juan",
-                "apellido": "Lopez",
-                "edad": 28
-            },
-            {
-                "nombre": "Ana",
-                "apellido": "Lirola",
-                "edad": 48
+            console.log(cartuchos);
+            console.log("PN:" + cartuchos.cartuchos[0].pn);
+            console.log("Marca:" + cartuchos.cartuchos[0].marca);
+            console.log("Descripcion:" + cartuchos.cartuchos[0].descripcion);
+            console.log("Precio:" + cartuchos.cartuchos[0].precio);
+            console.log("*************************");
+            for (var i = 0; i < cartuchos.cartuchos.length; i++) {
+                    console.log("PN:" + cartuchos.cartuchos[i].pn);
+                    console.log("Marca:" + cartuchos.cartuchos[i].marca);
+                    console.log("Descripcion:" + cartuchos.cartuchos[i].descripcion);
+                    console.log("Precio:" + cartuchos.cartuchos[i].precio);
+                    console.log("*************************");
+
             }
-        ];
-            console.log("Bienvenido a la consola");
-            console.log(persona);
-            console.log("***********");
-            console.log(persona.nombre);
-            console.log(persona.apellido);
-            console.log(persona.edad);
-            console.log("***********");
-            console.log(personas[1].nombre);
-            console.log(personas[1].apellido);
-            console.log(personas[1].edad);
-            console.log("***********");
-            for(var i = 0; i < personas.length; i++) {
-                console.log(personas[i].nombre);
-                console.log(personas[i].apellido);
-                console.log(personas[i].edad);
-                console.log("***********");
+            var pn = document.getElementById("pn");
+            var marca = document.getElementById("marca");
+            var descripcion = document.getElementById("descripcion");
+            var precio = document.getElementById("precio");
+            for (i = 0; i < cartuchos.cartuchos.length; i++) {
+                pn.innerHTML+="pn: " + cartuchos.cartuchos[i].pn + "\n";
+                marca.innerHTML+="marca: " + cartuchos.cartuchos[i].marca + "\n";
+                descripcion.innerHTML+="descripcion: " + cartuchos.cartuchos[i].descripcion + "\n";
+                precio.innerHTML+="precio: " + cartuchos.cartuchos[i].precio + "\n";
             }
+            var contenido = document.getElementById("cuerpo2");
+            for (i = 0; i < cartuchos.cartuchos.length; i++) {
+                contenido.innerHTML+= "<div>" + "PN: " + cartuchos.cartuchos[i].pn + "</div>";
+            }
+
+
         </script>
     </body>
 </html>
