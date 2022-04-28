@@ -82,6 +82,21 @@
                 "<div>" + "precio: " + elemento.precio + "</div>";
             }
             );
+            contenido.innerHTML+="**********for each + flecha******";
+            cartuchos.cartuchos.forEach(elemento =>{
+                contenido.innerHTML+= "<div>" + "PN: " + elemento.pn + "</div>" + 
+                "<div>" + "marca: " + elemento.marca + "</div>" +
+                "<div>" + "descripccion: " + elemento.descripcion + "</div>" +
+                "<div>" + "precio: " + elemento.precio + "</div>";
+            }
+            );
+            contenido.innerHTML+="**********for of************";
+            for (elemento of cartuchos.cartuchos) {
+                contenido.innerHTML+= "<div>" + "PN: " + elemento.pn + "</div>" + 
+                "<div>" + "marca: " + elemento.marca + "</div>" +
+                "<div>" + "descripccion: " + elemento.descripcion + "</div>" +
+                "<div>" + "precio: " + elemento.precio + "</div>";
+            }
 
 
         </script>
