@@ -67,9 +67,21 @@
                 precio.innerHTML+="precio: " + cartuchos.cartuchos[i].precio + "\n";
             }
             var contenido = document.getElementById("cuerpo2");
+            contenido.innerHTML+="**********for**********";
             for (i = 0; i < cartuchos.cartuchos.length; i++) {
-                contenido.innerHTML+= "<div>" + "PN: " + cartuchos.cartuchos[i].pn + "</div>";
+                contenido.innerHTML+= "<div>" + "PN: " + cartuchos.cartuchos[i].pn + "</div>" + 
+                "<div>" + "marca: " + cartuchos.cartuchos[i].marca + "</div>" +
+                "<div>" + "descripccion: " + cartuchos.cartuchos[i].descripcion + "</div>" +
+                "<div>" + "precio: " + cartuchos.cartuchos[i].precio + "</div>";
             }
+            contenido.innerHTML+="**********for each**********";
+            cartuchos.cartuchos.forEach(function(elemento){
+                contenido.innerHTML+= "<div>" + "PN: " + elemento.pn + "</div>" + 
+                "<div>" + "marca: " + elemento.marca + "</div>" +
+                "<div>" + "descripccion: " + elemento.descripcion + "</div>" +
+                "<div>" + "precio: " + elemento.precio + "</div>";
+            }
+            );
 
 
         </script>
