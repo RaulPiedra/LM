@@ -1,0 +1,26 @@
+{"jugadores":
+[
+     
+    {
+    "nombre": "Carlos Alcaraz",
+    "pais": "España",
+    "ranking": 9,
+    "mano": "diestro",
+    "edad": 18
+},
+{
+    "nombre": "Novak Djokovic",
+    "pais": "Serbia",
+    "ranking": 1,
+    "mano": "diestro",
+    "edad": 34
+},
+{
+    "nombre": "Rafael Nadal",
+    "pais": "España",
+    "ranking": 9,
+    "mano": "zurdo",
+    "edad": 35
+}
+    ]
+}
